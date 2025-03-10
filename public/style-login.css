@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 490px;
+
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 490px;
+}
+
+button {
+    margin: 10px 490px;
+}
+
+img {
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 200px;
+}
