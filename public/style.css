@@ -1,3 +1,169 @@
-body {
-    background-color: aquamarine;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(97, 53, 53);
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+}
+
+header {
+    text-align: center;
+    width: 60%;
+}
+
+nav {
+    display: flex;
+    gap: 6px;
+    width: 40%;
+    align-items: center;
+}
+
+.pesquisa {
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+.busca {
+    border-radius: 5px;
+}
+
+.perfil {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 30px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 20%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.menu {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.carne {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.peixe {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.frutosdomar {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.massa {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.bebida {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.doce {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.favorita {
+    background-color: rgb(251, 251, 197);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+article {
+    width: 60%;
+    margin: 10px;
+}
+
+h2 {
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.receita-box {
+    display: flex;
+    margin: 10px 10px 20px 0px;
+}
+
+.pratos {
+    width: 170px;
+    float: left;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.receita {
+    position: static;
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+aside {
+    width: 20%;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    background-color: rgb(97, 53, 53);;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 4;
+}
+
+.insta {
+    border-radius: 50%;
+    width: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
